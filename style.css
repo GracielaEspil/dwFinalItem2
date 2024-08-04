@@ -1,0 +1,154 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Source Sans Pro, Arial, sans-serif;
+  }
+
+ /*ID*/
+
+#tv {
+  border-style: solid;
+  border-width: 1px;
+  border: 1px solid rgba(93, 87, 87, 0.6);
+  color: rgba(93, 87, 87, .6);
+  margin-right: 10px;
+  padding: 5px 8px 5px 8px; 
+  list-style-type: none;
+}
+#a35 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#a65 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#boton-azul{
+  background-color: rgb(3 ,25, 41);
+  width: 20 px;
+  height: 80px;
+  border-radius: 0 0 15px 15px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#ver-ahora {
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  color:#e9dfdf  
+}
+
+#retrasmision {
+  font-family: Arial;
+  font-size: 14px;
+  color: aquamarine;
+}
+
+#titulo-serie {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 36px;
+  color: #e9dfdf;
+}
+
+/*CLASES*/
+
+.seccion-60 {
+  background-image: url(img/image.jpg);
+  flex: 0 0 60%;
+  display: flex; /* Hacemos la sección flexible */
+  justify-content: space-between; /* Separa los elementos de forma equitativa */
+  flex-direction: row; /*Cambia a fila */
+  color: #e9dfdf;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.seccion-40 {
+  background-color: aliceblue;
+  flex: 0 0 40%;
+}
+
+.iconos-contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.certificacion {
+  font-size: large;
+  white-space: nowrap;
+  display: flex;
+}
+
+.colum_horiz {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  margin: 0; /* Elimina cualquier margen predeterminado */
+  padding: 0; 
+}
+
+.reparto {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  border: #e9dfdf;
+  border-radius: 10px;
+}
+
+.box2 {
+  min-width: 25rem;
+  display: flex;/* Hacemos que los elementos del li se comporten como flex */ 
+}
+
+.iconos img {
+  width: 40%;
+  height: auto;
+  border-radius: 90%; /* Hace que la imagen sea circular */
+  border: 2px solid rgb(3, 25, 41); /* Agrega un borde azul */
+  background-color: rgb(3, 25, 41);
+  padding: 10px; 
+}
+
+.box1 {
+  background-color: rgb(3, 25, 41);
+  width: 10px; /* Mantener el ancho de la imagen prime video */
+  height: 60px;
+  display: flex;/* Hacemos que los elementos del li se comporten como flex */ 
+  flex-direction: row;
+  width: max-content;
+  align-content: center;
+  align-items: center; /* Centrado vertical */
+  justify-content: center;
+}
+
+.item {
+  padding:10px;
+}
+
+.item-tv {
+  opacity: .6;
+}
+
+
+/*ETIQUETADS*/
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+ul li {
+  margin-top: -10px;
+}
+
+span {
+  opacity: .9;
+  font-weight: 400;
+  font-family: Verdana, Tahoma, sans-serif;
+}
